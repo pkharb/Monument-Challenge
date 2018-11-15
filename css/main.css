@@ -1,0 +1,35 @@
+body {
+    margin: 75px 50px;
+}
+/*  */
+header {
+   font-family: 'Lato' , sans-serif;
+   
+}
+
+header > h1 > a{
+    font-size: 75px;
+    color: #f2d865;
+    font-weight: 100;
+}
+
+header > h2{
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+header > nav > a {
+    color: #ccc9bf;
+    border-bottom: 1px solid #ccc9bf;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+header > nav {
+    
+    margin-top: 25px;
+}
