@@ -13,7 +13,7 @@ header > h1 {
 }
 
 header > h1 > a{
-    font-size: 75px;
+    font-size: 70px;
     color: #f2d865;
     font-weight: 100;
 }
@@ -28,10 +28,10 @@ a {
 
 header > nav > a {
     color: #ccc9bf;
-    border-bottom: 1px solid #ccc9bf;
+    border-bottom: 1.5px solid #ccc9bf;
     font-size: 25px;
     font-weight: 200;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 header > nav {
@@ -45,13 +45,14 @@ article {
     font-family: 'Lato' , sans-serif;
     margin-top: 80px;
     width: 600px;
-    border-bottom: 2px solid #ccc9bf;
-    display: block;
+    border-bottom: 1px solid #ccc9bf;
+    
    
 }
 
 article > p::first-letter{
     font-size: 65px;
+    color: #ccc9bf;
     float: left;
     line-height: 80%;
 }
@@ -78,7 +79,7 @@ article > h4 {
     
 }
 article > h4 > a {
-    float: right;
+    
     color: #f2d865;
 }
 
@@ -91,7 +92,7 @@ footer {
     margin-top: 45px;
     margin-bottom: 40px;
     color: #ccc9bf;
-    clear: both;
+    /* clear: both; */
 }
 
 footer > nav > a {
