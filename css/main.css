@@ -1,10 +1,15 @@
 body {
     margin: 75px 50px;
+    border-left: 5px solid #ccc9bf;
+    padding-left: 45px;
 }
 /*  */
 header {
    font-family: 'Lato' , sans-serif;
-   
+}
+
+header > h1 {
+    margin-top: 10px;
 }
 
 header > h1 > a{
@@ -32,4 +37,64 @@ header > nav > a {
 header > nav {
     
     margin-top: 25px;
+}
+
+/* make changes to article*/
+
+article {
+    font-family: 'Lato' , sans-serif;
+    margin-top: 80px;
+    width: 600px;
+    border-bottom: 2px solid #ccc9bf;
+    display: block;
+   
+}
+
+article > p::first-letter{
+    font-size: 65px;
+    float: left;
+    line-height: 80%;
+}
+
+article > img {
+    width: 600px;
+    
+}
+article > h3 {
+    font-size: 35px;
+    font-weight: 100;
+    color: #ccc9bf;
+}
+article > h2 > a {
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 0;
+}
+article > h4 {
+    /* float: right; */
+    text-align: right;
+    
+    
+}
+article > h4 > a {
+    float: right;
+    color: #f2d865;
+}
+
+article > p {
+    
+    
+}
+
+footer {
+    margin-top: 45px;
+    margin-bottom: 40px;
+    color: #ccc9bf;
+    clear: both;
+}
+
+footer > nav > a {
+    text-decoration: none;
+    color: #f2d865;
 }
